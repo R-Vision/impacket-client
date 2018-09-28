@@ -1,5 +1,5 @@
-# winexe
-Wrapper around the impacket
+# impacket-client
+Wrapper around the impacket for node.js
 
 ### Install
 ```bash
