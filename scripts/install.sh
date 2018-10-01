@@ -1,4 +1,4 @@
-ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"/scripts
+ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"/
 if ! [ -x "$(command -v pip)" ]; then
   cd $ROOT_DIR/pip
   sudo python2.7 setup.py install
